@@ -1,5 +1,5 @@
 import { collection, doc, getDocs, updateDoc } from "firebase/firestore";
-import { db } from "./firebase.js";
+import { db } from "../config/firebase.js";
 
 export const tweetsRef = collection(db, "tweets");
 

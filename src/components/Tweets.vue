@@ -1,7 +1,7 @@
 <script setup>
 import { reactive } from 'vue';
 import TweetCard from './TweetCard.vue';
-import { getTweets } from "../data/tweets"
+import { getTweets } from "../model/tweets"
 
 const data = await getTweets();
 const tweets = reactive(data)

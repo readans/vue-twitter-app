@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue';
 import TweetOption from './TweetOption.vue';
-import { updateTweet } from "../data/tweets.js"
+import { updateTweet } from "../model/tweets.js"
 
 /** @typedef {object} Tweet
  * @property {string} id
